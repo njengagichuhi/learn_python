@@ -4,8 +4,7 @@
 def my_num():
     number=int(input("input a number:"))
     result=[]
-    for i in range(1,number+
-1):
+    for i in range(1,number+1):
         if number%i==0:
             result.append(i)
     return result
